@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Staff Module Management">
+    <title>HCM</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.png">
+
+
+    <!-- Required External CSS -->
+    <link href="./assets/lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="./assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="./assets/css/payslip.css ">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/dashforge.css">
+    <style>
+      *{
+      -webkit-font-smoothing: antialiased !important;
+      -moz-osx-font-smoothing: grayscale !important;
+      }
+      body { -webkit-font-smoothing: antialiased; }
+      </style>
+  </head>
+  <body class="">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white bd navbar-header-fixed pd-y-0">
+          <div class="container">
+            <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i data-feather="menu" class="wd-20 ht-20"></i>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active pb-1 pd-x-10">
+                  <a class="nav-link header-link" href="/staff/home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item pd-x-20">
+                  <a class="nav-link header-link dropdown-toggle" href="#" data-toggle="dropdown" >Self Service</a>
+                    <div class="dropdown-menu dropdown-menuu tx-13">
+                      <a href="" class="dropdown-item">Covid-19 Help Desk</a>
+                      <a href="" class="dropdown-item">Work Ethics</a>
+                      <a href="" class="dropdown-item">Leave Application</a>
+                      <a href="" class="dropdown-item">Exit</a>
+                    </div>
+                </li>
+                <li class="nav-item pd-x-20">
+                  <a class="nav-link header-link" href="#">Manage Profile</a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav ml-auto mr-5">
+                <a href="http://" class="btn btn-sm btn-outline tx-bold pd-y-2"><i data-feather="power" class="mr-2"></i>Sign out</a>
+              </ul>
+          </div>
+              
+              <a class="navbar-brand navbar-right tx-bold tx-spacing--2 order-1 logo-link ml-5" href="/staff/home.html"><img src="./assets/img/logo.png" class="img-fluid"/></a>
+              
+        </nav>    
+    </header>
+    
+    <section class="secondary-bg">
+      <div class="container pd-md-y-100 py-20">
+        <div class="col-md-8 col-12">
+          <div class="d-flex">
+            <div class="mg-r-25">
+              <img src="./assets/img/date.png" class="img-fluid" alt="" srcset="">
+            </div>
+            <div>
+              <p class="tx-32 tx-bold mb-1">Earnings</p>
+              <p class="tx-14 tx-subdue mb-0">Take a look at your salary breakdown or download your payslips</p>
+            </div>
+          </div>
+        </div>
+        <div class="mg-md-t-40 mg-t-20">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item neww">
+              <a class="nav-link active new" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Salary Breakdown</a>
+            </li>
+            <li class="nav-item neww">
+              <a class="nav-link new" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Payslips</a>
+            </li>
+          </ul>
+          <div class="tab-content bd-t-0 pd-y-20" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="card card-body">
+                  <div class="d-flex mg-b-30">
+                    <div class="mg-r-8">
+                      <img src="./assets/img/icon/list.svg" class="img-fluid" alt="" srcset="">
+                    </div>
+                    <div>
+                      <p class="mb-0 tx-16 tx-semibold">YOUR SALARY BREAKDOWN</p>
+                    </div>
+                  </div>
+                <div class="card-body pd-y-10 pd-x-15 bg-grey-100 mg-b-30">
+                  <p class="tx-14 mb-0">Gross Salary (per annum)</p>
+                  <p class="tx-14 tx-semibold mb-0">₦ 4,564,303</p>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-4 col-12 mg-b-20 mg-md-b-0 pd-md-x-30">
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Basic Pay</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 785,4030</p>
+                     </div>
+                    </div>
+                    
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Transport</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 452,204</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Domestic</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Dressing</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Club Subscription</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Car Maintenance</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Travel Subsidy</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Pension</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Tax</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-lg-4 col-12 mg-b-20 mg-md-b-0 pd-md-x-30">
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Housing</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Furniture</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Entertainment</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Lunch</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Variable pay</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Guard</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Driver</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">NHF</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">House deductions</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-lg-4 col-12 mg-md-b-0 pd-md-x-30">
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Mortgage Support</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Utility</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Education</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Status car allowance</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">House Maintenance</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Telephone</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Cost of passage</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Status car deduction</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    <div class="row bd-b pd-y-5">
+                      <div class="col-md-6 col-5 mg-b-15 mg-md-b-0">
+                        <p class="tx-13 tx-new mb-0">Union dues</p>
+                      </div>
+                     <div class="col-md-6 col-7 mg-b-15 mg-md-b-0">
+                      <p class="tx-14 mb-0 tx-bold tx-right">&#x20A6; 0</p>
+                     </div>
+                    </div>
+                    
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="card card-body">
+                <div class="d-flex mg-b-30">
+                  <div class="mg-r-8">
+                    <img src="./assets/img/icon/slip.svg" class="img-fluid" alt="" srcset="">
+                  </div>
+                  <div>
+                    <p class="mb-0 tx-16 tx-semibold">PAYSLIPS</p>
+                  </div>
+                </div>
+
+                <p class="tx-semibold tx-14">Past 6 months</p>
+
+                <div class="table-responsive">
+                  <table class="table table-striped">
+                    <!-- <thead>
+                      <tr>
+                        <th scope="col">Degree</th>
+                        <th scope="col">Salary</th>
+                      </tr> -->
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="">
+                          <p class="mb-0 pd-t-6 tx-14">October, 2021</p>
+                        </td>
+                        <td class="tx-right">
+                          <button class="btn btn-close btn-sm tx-12 tx-semibold tx-grey-700">
+                            <img src="./assets/img/icon/download-slip.svg" alt="" srcset="" class="mg-r-10 img-fluid">
+                            Download PDF
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="">
+                          <p class="mb-0 pd-t-6 tx-14">September, 2021</p>
+                        </td>
+                        <td class="tx-right">
+                          <button class="btn btn-close btn-sm tx-12 tx-semibold tx-grey-700">
+                            <img src="./assets/img/icon/download-slip.svg" alt="" srcset="" class="mg-r-10 img-fluid">
+                            Download PDF
+                          </button>
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td class="">
+                          <p class="mb-0 pd-t-6 tx-14">August, 2021</p>
+                        </td>
+                        <td class="tx-right">
+                          <button class="btn btn-close btn-sm tx-12 tx-semibold tx-grey-700">
+                            <img src="./assets/img/icon/download-slip.svg" alt="" srcset="" class="mg-r-10 img-fluid">
+                            Download PDF
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="">
+                          <p class="mb-0 pd-t-6 tx-14">July, 2021</p>
+                        </td>
+                        <td class="tx-right">
+                          <button class="btn btn-close btn-sm tx-12 tx-semibold tx-grey-700">
+                            <img src="./assets/img/icon/download-slip.svg" alt="" srcset="" class="mg-r-10 img-fluid">
+                            Download PDF
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="">
+                          <p class="mb-0 pd-t-6 tx-14">June, 2021</p>
+                        </td>
+                        <td class="tx-right">
+                          <button class="btn btn-close btn-sm tx-12 tx-semibold tx-grey-700">
+                            <img src="./assets/img/icon/download-slip.svg" alt="" srcset="" class="mg-r-10 img-fluid">
+                            Download PDF
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="">
+                          <p class="mb-0 pd-t-6 tx-14">May,2021</p>
+                        </td>
+                        <td class="tx-right">
+                          <button class="btn btn-close btn-sm tx-12 tx-semibold tx-grey-700">
+                            <img src="./assets/img/icon/download-slip.svg" alt="" srcset="" class="mg-r-10 img-fluid">
+                            Download PDF
+                          </button>
+                        </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="card card-body bg-grey-100 mg-t-20">
+                  <p class="tx-14 tx-semibold">Download payslip for a specific month</p>
+                  <div class="row justify-content-between">
+                    <div class="col-md-7">
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="year" class="tx-14 tx-medium mg-b-3">Select here</label>
+                          <select class="custom-select">
+                            <option selected>Select Year</option>
+                            <option value="1">2021</option>
+                            <option value="2">2020</option>
+                            <option value="3">2019</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="month" class="tx-14 tx-medium mg-b-3">Select Month</label>
+                          <select class="custom-select">
+                            <option selected>Select here</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+
+                          </select>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="col-md-2 pd-md-r-10 mg-md-t-30 mg-t-10">
+                      <button class="btn btn-close btn-sm tx-12 tx-semibold tx-grey-700 w-100 ">
+                        <img src="./assets/img/icon/download-slip.svg" alt="" srcset="" class="mg-r-10 img-fluid">
+                        Download PDF
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section class="footer text-white">
+      <div class="container">
+        <p class="tx-14 mb-0 text-capitalize tx-white">&copy; 2020 UBA Group. All Rights Reserved.</p>
+      </div>
+    </section>
+  
+    <script src="./assets/lib/jquery/jquery.min.js"></script>
+    <script src="./assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/lib/feather-icons/feather.min.js"></script>
+    <script src="./assets/lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="./assets/js/dashforge.js"></script>
+    <script src="./assets/lib/js-cookie/js.cookie.js"></script>
+    <script src="./assets/js/dashforge.settings.js"></script>
+    <script src="./assets/js/drop.js"></script>
+    <script src="./assets/js/dropzone.js"></script>
+    <script>
+      $('[data-toggle="tooltip"]').tooltip();
+    </script>
+  
+
+  </body>
+</html>
