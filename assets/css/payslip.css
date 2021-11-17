@@ -121,4 +121,10 @@ margin-left: 0px;
   .btn-close{
     padding-left: 10px!important;
   }
+  .pay-icon{
+    width: 80%!important;
+  }
+  .mobile{
+    padding-top: 30px!important;
+  }
 }
